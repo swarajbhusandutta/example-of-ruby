@@ -10,15 +10,5 @@ describe Square do
     square = Square.new(4)
     expect(square).to respond_to(:area)
   end
-  
-  it "should have a border" do
-    square = Square.new(4)
-    expect(square).to respond_to(:border)
-  end
-
-  it "should have a border" do
-    square = Square.new(4)
-    expect(square).to respond_to(:border)
-  end
-  
+ 
 end
